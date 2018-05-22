@@ -17,7 +17,7 @@
 
 
 // Include theme-specific fonts
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+@import url('../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css');
 
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
@@ -51,3 +51,5 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+@import "custom";
