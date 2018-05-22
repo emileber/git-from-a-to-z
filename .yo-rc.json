@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Git de A à Z",
+    "packageVersion": "0.1.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "emileber",
+    "githubRepository": "git-from-a-to-z"
+  }
+}
