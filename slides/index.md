@@ -1,10 +1,5 @@
 
 # Git de A à Z
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+Présentation en ligne sur:  
+[emileber.github.io/git-from-a-to-z](https://emileber.github.io/git-from-a-to-z)

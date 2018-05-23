@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+@import url("../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css");
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -11,14 +11,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #eee;
+  background-color: #eee; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #fff; }
+  color: #222; }
 
 ::selection {
   color: #fff;
@@ -40,12 +40,12 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: #222;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -226,7 +226,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #fff;
+  border: 4px solid #222;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -285,3 +285,43 @@ body {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.grid {
+  display: table;
+  width: 100%; }
+  .grid.grid-fixed {
+    table-layout: fixed; }
+  .grid .row {
+    display: table-row; }
+  .grid .col {
+    display: table-cell;
+    vertical-align: middle; }
+
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0); }
+  20%, 60% {
+    transform: rotate(-25deg); }
+  40%, 80% {
+    transform: rotate(10deg); } }
+
+.github-corner {
+  position: fixed;
+  top: 0;
+  border: 0;
+  right: 0;
+  color: #eee; }
+  .github-corner svg {
+    fill: #222; }
+  .github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out; }
+  @media (max-width: 500px) {
+    .github-corner .github-corner:hover .octo-arm {
+      animation: none; }
+    .github-corner .github-corner .octo-arm {
+      animation: octocat-wave 560ms ease-in-out; } }
+
+.reveal section img {
+  background: #fff;
+  padding: 10px;
+  border: none; }
