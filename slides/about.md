@@ -1,7 +1,11 @@
 ## À propos de moi
 
-Optania (Ellipse Synergie)
-  _ber.emile<i class="fa fa-fw fa-at"></i>prismalstudio.com_
+### Émile Bergeron
+
+_ber.emile<i class="fa fa-fw fa-at"></i>prismalstudio.com_  
+Web dev, Optania (Ellipse Synergie)  
+Co-organisateur du [Saglac IO](https://saglac.io)
+  
 
 <i class="fa fa-fw fa-github"></i> [emileber](https://github.com/emileber)  
 <i class="fa fa-fw fa-twitter"></i> [@emile_ber](https://twitter.com/emile_ber)  
