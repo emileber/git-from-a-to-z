@@ -1,4 +1,40 @@
 [
     "index.md",
-    "about.md"
+    "about.md",
+    [
+        "introduction/_index.md",
+        "introduction/what.md",
+        "introduction/why.md",
+        "introduction/scm.md",
+        "introduction/local-vcs.md",
+        "introduction/centralized-vcs.md",
+        "introduction/distributed-vcs.md"
+    ],
+    [
+        "disambiguation/_index.md",
+        "disambiguation/svn.md",
+        "disambiguation/hg.md",
+        "disambiguation/tfs.md",
+        "disambiguation/github.md",
+        "disambiguation/gitlab.md",
+        "disambiguation/bitbucket.md"
+    ],
+    [
+        "history/_index.md"
+    ],
+    [
+        "installation/windows.md",
+        "installation/mac.md",
+        "installation/linux.md"
+    ],
+    [
+        "concepts/_index.md",
+        "concepts/states.md",
+        "concepts/sections.md"
+
+    ],
+    [
+        "basics/_index.md"
+    ]
+
 ]

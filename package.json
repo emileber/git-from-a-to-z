@@ -23,6 +23,8 @@
     },
     "scripts": {
         "test": "grunt test",
-        "build": "decktape reveal https://emileber.github.io/git-from-a-to-z dist/resources/git-from-a-to-z.pdf"
+        "start": "grunt serve",
+        "deploy": "grunt deploy",
+        "build": "decktape reveal http://localhost:9000/#/1 dist/resources/git-from-a-to-z.pdf"
     }
 }

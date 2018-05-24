@@ -9,6 +9,7 @@ Formation pratique sur l'outil de gestion de version Git
 - Histoire de Git
 - L'installation de Git
 - Outils visuels disponibles (MSVS, Sourcetree, Gitkraken, Github Desktop, Git Extensions)
+- Concepts de base
 - Opérations de base (Petit atelier intéractif)
 - Configurations (gitignore, gitconfig, gitattributes, etc)
 - Branching vs tags
