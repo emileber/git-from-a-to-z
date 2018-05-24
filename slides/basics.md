@@ -18,13 +18,35 @@
 
 ## init
 
+Crée ou réinitialise un dépôt à l'intérieur d'un dossier.
+
+```shell
+# Créez un dossier et naviguez à l'intérieur
+mkdir mon-projet && cd "$_"
+
+# Nous sommes prêt à initialiser un nouveau dépôt git
+git init
+```
+
+Un dossier `.git/` est créé à l'intérieur du répertoire du projet.
+
 ---
 
 ## status
 
+Montre l'état de la zone de travail.
+
+![git status](resources/status.png)
+
 ---
 
 ## add
+
+---
+
+## commit
+
+![git commit comic](resources/git_commit_message_comic.png)
 
 ---
 
@@ -90,3 +112,6 @@ git rm -r dossier/
 
 Équivalent de `rm`, mais 
 
+---
+
+## stash

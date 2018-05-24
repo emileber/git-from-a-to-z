@@ -2,25 +2,13 @@
     "index.md",
     "about.md",
     [
-        "introduction/_index.md",
-        "introduction/what.md",
-        "introduction/why.md",
-        "introduction/scm.md",
-        "introduction/local-vcs.md",
-        "introduction/centralized-vcs.md",
-        "introduction/distributed-vcs.md"
+        "introduction.md"
     ],
     [
-        "disambiguation/_index.md",
-        "disambiguation/svn.md",
-        "disambiguation/hg.md",
-        "disambiguation/tfs.md",
-        "disambiguation/github.md",
-        "disambiguation/gitlab.md",
-        "disambiguation/bitbucket.md"
+        "disambiguation.md"
     ],
     [
-        "history/_index.md"
+        "history.md"
     ],
     [
         "installation/windows.md",
@@ -28,12 +16,33 @@
         "installation/linux.md"
     ],
     [
-        "concepts/_index.md",
-        "concepts/distributed.md",
-        "concepts/states.md",
-        "concepts/sections.md",
-        "concepts/remotes.md"
+        "gui.md"
     ],
-    ["basics.md"]
-
+    [
+        "concepts.md"
+    ],
+    [
+        "basics.md"
+    ],
+    [
+        "configurations.md"
+    ],
+    [
+        "branching.md"
+    ],
+    [
+        "merge.md"
+    ],
+    [
+        "flow.md"
+    ],
+    [
+        "conflicts.md"
+    ],
+    [
+        "problems.md"
+    ],
+    [
+        "blame.md"
+    ]
 ]
