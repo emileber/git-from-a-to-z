@@ -29,12 +29,11 @@
     ],
     [
         "concepts/_index.md",
+        "concepts/distributed.md",
         "concepts/states.md",
-        "concepts/sections.md"
-
+        "concepts/sections.md",
+        "concepts/remotes.md"
     ],
-    [
-        "basics/_index.md"
-    ]
+    ["basics.md"]
 
 ]

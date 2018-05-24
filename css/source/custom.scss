@@ -1,8 +1,16 @@
 @import "grid";
 @import "github-corner";
 
-.reveal section img {
-    background: #fff;
-    padding: 10px;
-    border: none;
+.reveal {
+    section img {
+        background: #fff;
+        padding: 10px;
+        border: none;
+    }
+
+    p code,
+    li code {
+        background: rgba(255, 255, 255, 0.13);
+        padding: 0 0.15em;
+    }
 }
