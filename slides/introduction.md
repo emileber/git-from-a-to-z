@@ -19,14 +19,14 @@
 
 ---
 
-## SCM local
+## Local
 
 - Dépôt sur un seul ordinateur
 - Aucun pré-requis réseau
 
 ---
 
-## SCM centralisé
+## Centralisé
 
 - Dépôt central
 - Toutes les opérations sur celui-ci

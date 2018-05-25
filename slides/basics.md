@@ -14,13 +14,19 @@
 
 [**try.github.io**](https://try.github.io/levels/1/challenges/9)
 
+Voir l'aide d'une commande git
+
+```bash
+git [command] --help
+```
+
 ---
 
 ## init
 
 Crée ou réinitialise un dépôt à l'intérieur d'un dossier.
 
-```shell
+```bash
 # Créez un dossier et naviguez à l'intérieur
 mkdir mon-projet && cd "$_"
 
@@ -42,9 +48,27 @@ Montre l'état de la zone de travail.
 
 ## add
 
+Ajoute des _changements_ à la zone d'index
+
+```bash
+# Ajouter tous les changements
+git add .
+
+# Ajout intéractif
+git add -i
+```
+Permet d'ajouter seulement des sections d'un fichier modifié
+
 ---
 
 ## commit
+
+Enregistre les changements actuellement dans l'index
+
+```bash
+# Commit avec un message
+git commit -m "Message du commit"
+```
 
 ![git commit comic](resources/git_commit_message_comic.png)
 
@@ -52,7 +76,10 @@ Montre l'état de la zone de travail.
 
 ## checkout
 
-```shell
+Changer de branche (bouger le `HEAD`)  
+**ou** restaurer un fichier modifié
+
+```bash
 # Déplacer HEAD
 git checkout [branch | commit_hash]
 
@@ -64,7 +91,9 @@ git checkout -- directory/
 
 ## diff
 
-```shell
+Voir les différences entre les zones et des commits
+
+```bash
 # Voir les différences avec le dernier commit
 git diff HEAD
 
@@ -75,6 +104,17 @@ git diff --staged
 ---
 
 ## log
+
+Affiche l'historique de commit
+
+```bash
+git log
+
+# Voir un graphique plus complet et clair
+git log --graph --oneline
+```
+
+![git graph oneline](resources/git-graph-oneline.png)
 
 ---
 
@@ -92,7 +132,7 @@ git diff --staged
 
 ## reset
 
-```shell
+```bash
 # Retirer un fichier de l'index
 git reset fichier.ext
 ```
@@ -103,7 +143,7 @@ git reset fichier.ext
 
 Supprime les fichiers ou répertoires et ajoute les suppressions à l'index.
 
-```shell
+```bash
 git rm "*.txt"
 
 # Supprimer un répertoire
