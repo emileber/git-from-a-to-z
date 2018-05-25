@@ -325,3 +325,8 @@ body {
   background: #fff;
   padding: 10px;
   border: none; }
+
+.reveal p code,
+.reveal li code {
+  background: rgba(255, 255, 255, 0.13);
+  padding: 0 0.15em; }
