@@ -53,6 +53,14 @@ Développé par Github, s'intègre particulièrement bien avec Github
 
 ---
 
+## SmartGit
+
+Payant
+
+![smartgit](resources/smart-git.png)
+
+---
+
 ## Intégrations dans les IDE
 
 - MSVS
