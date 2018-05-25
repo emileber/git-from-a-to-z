@@ -2,6 +2,9 @@
     "index.md",
     "about.md",
     [
+        "toc.md"
+    ],
+    [
         "introduction.md"
     ],
     [
@@ -44,5 +47,8 @@
     ],
     [
         "blame.md"
+    ],
+    [
+        "thanks.md"
     ]
 ]
