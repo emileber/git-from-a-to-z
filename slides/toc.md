@@ -23,6 +23,7 @@
 - Branches et étiquettes
 - Les stratégies de fusion
 - Flow de développement communs
+- Les bonnes pratiques
 - Résolution de conflits
 - Réécrire l’histoire
 - Trouver le coupable (Blame et bisect)

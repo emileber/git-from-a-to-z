@@ -16,3 +16,5 @@ https://try.github.io/
 https://stackoverflow.com/q/315911/1218980
 - Practical Git for Everyday Professional Use  
 https://egghead.io/courses/practical-git-for-everyday-professional-use
+- Git best practices  
+https://sethrobertson.github.io/GitBestPractices/
