@@ -120,21 +120,62 @@ git log --graph --oneline
 
 ## push
 
+Met à jour la référence distante d'une branche
+
+```bash
+# Synchroniser la branche master avec le dépôt distant
+git push origin master
+# Si master est la branche courante, par défaut, équivalent à:
+git push
+
+# Pousser une branche locale en ligne
+git push -u origin nom_de_branche_locale
+```
+
 ---
 
 ## pull
+
+Met à jour la référence locale à partir de la référence distante
+
+```bash
+git pull
+
+# Aller chercher les changements sans les appliquer
+git fetch
+```
 
 ---
 
 ## remote
 
+Gére les références distantes
+
+```bash
+# Afficher les références
+git remote
+
+# Ajouter une référence
+git remote add nom_de_remote https://github.com/user/repo.git
+
+```
+
 ---
 
 ## reset
 
+Réinitialise `HEAD` sur un commit particulier  
+**ou** réinitialise un fichier de l'index
+
 ```bash
 # Retirer un fichier de l'index
-git reset fichier.ext
+git reset fichier.txt
+
+# Annuler le dernier commit en gardant les changements
+git reset --soft HEAD^
+
+# Réinitialiser HEAD sur un commit
+git reset --hard fbdee7d
 ```
 
 ---
@@ -150,8 +191,24 @@ git rm "*.txt"
 git rm -r dossier/
 ```
 
-Équivalent de `rm`, mais 
+Équivalent de `rm`, mais ajoute les suppressions à l'index automatiquement.
 
 ---
 
 ## stash
+
+Sauvegarde les changements en cours dans une branche temporaire
+
+```bash
+# Sauvegarder localement les changements en cours
+git stash
+
+# On peut donner un message au commit
+git stash save "Mes changements en cours"
+
+# Réappliquer les changements sauvegardés (supprime en même temps)
+git stash pop
+
+# Supprimer les changements
+git stash drop
+```
