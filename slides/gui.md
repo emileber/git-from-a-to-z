@@ -4,6 +4,23 @@ Pour rendre l'utilisation de Git plus accessible.
 
 ---
 
+## Avantages
+
+- Accessible à tout le monde
+- Facilite le 1% des actions faites 99% du temps
+- Possibilité de découvrir les actions possibles
+
+---
+
+## Désavatanges
+
+- Ne permet pas **toutes les actions** aussi facilement
+- Cache parfois les erreurs ou message important
+- Peu de standard dans les interfaces
+- Traductions horribles
+
+---
+
 ## SourceTree
 
 Développé par Atlassian (Bitbucket, Jira, etc.)
