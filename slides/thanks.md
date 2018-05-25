@@ -7,6 +7,14 @@ Questions?
 
 ---
 
+## Awesome Git
+
+Liste de plusieurs outils, articles et références populaires et validés.
+
+https://github.com/dictcp/awesome-git
+
+---
+
 ## Références
 
 

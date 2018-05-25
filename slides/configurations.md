@@ -8,7 +8,7 @@ Local ou global
 
 ## Ignorer des fichiers
 
-Le fichier `.gitignore`
+Le fichier `.gitignore` (local et global)
 
 ```text
 node_modules
@@ -23,7 +23,7 @@ dist
 .DS_Store
 ```
 
-Il peut-être global aussi.
+Des fichier `.gitignore` pré-configuré pour des technos: https://gitignore.io/
 
 ---
 
