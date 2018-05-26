@@ -22,7 +22,7 @@ Question de bien se comprendre!
 
 ## TFS
 
-- Team Fundation Server
+- Team Foundation Server
 - Permet entre autre l'utilisation de Git
 - Offre le VCS propriétaire TFVC
 
