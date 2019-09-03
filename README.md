@@ -1,5 +1,7 @@
 # Git de A à Z
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/emileber/git-from-a-to-z.svg)](https://greenkeeper.io/)
+
 Formation pratique sur l'outil de gestion de version Git
 
 ## Sujets abordés
