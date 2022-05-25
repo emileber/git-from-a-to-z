@@ -4,7 +4,7 @@
     "devDependencies": {
         "coffeelint": "^1.16.0",
         "decktape": "^2.8.3",
-        "grunt": "^1.0.0",
+        "grunt": "^1.5.3",
         "grunt-build-control": "^0.7.1",
         "grunt-coffeelint": "0.0.16",
         "grunt-contrib-connect": "^1.0.2",
